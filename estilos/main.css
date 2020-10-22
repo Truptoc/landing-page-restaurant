@@ -1,10 +1,10 @@
 /*Estilos de Tipo Etiqueta*/
-h1 {
+/* h1 {
     font-family: impact;
     font-size: 40px;
     text-align: center;
     color: brown;
-}
+} */
 /* h2 {
     font-family: verdana;
     font-size: 25px;
@@ -24,12 +24,61 @@ p {
 } */
 body{
     background-color: #f9e79f;
+    margin: 0;   
+    font-size: 16px;
+
+
+}
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
+.main {
+    width: 660px;
+    margin: 0 auto;
+}
+
+
+
+
+/* Estilos par la primera pagina */
+.header {
     background-image: url("../images/frontal2.jpe");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    /* height: 500px; */
+    height: 100vh;
+    width: 100vh;
+    text-align: center;
+    color: #fff;
+}
+
+.header-wrap {
+    padding: 50px;
+    /* margin: 50px; */
+}
+
+.header-subtitle {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    /* margin: 30px; */
+    font-family: Arial, Helvetica, sans-serif;
+    
 
 }
+
+.header-title {
+    font-family: 'Merriweather', serif;
+    margin: 30px 0;
+    font-size: 44px;
+    
+}
+
+
 .botonsito {
     font-family: calibri;
     font-size: 16px;
